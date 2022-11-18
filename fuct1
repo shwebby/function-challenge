@@ -1,0 +1,26 @@
+def elec_bill():
+	int(input("How much is your electric bill?: "))
+def rent():
+	int(input("How much do you have to pay for rent?: "))
+def retire_plan():
+	float(input("What % of your salery every month do you want to put in your retirement plan?: "))
+def water_bill():
+	int(input("How much do you have to pay for water every month?: "))
+def phone_bill():
+	int(input("How much is your phone bill every month?: "))
+def insurance():
+	int(input("How much is your premium monthly?: "))
+def car():
+	int(input("How much is your car payment every month?: "))
+
+monthly_salery = input("How much do you make every month?: ")
+
+insurance()
+car()
+phone_bill()
+retire_plan()
+elec_bill()
+water_bill()
+rent()
+
+total_bill = insurance + car
